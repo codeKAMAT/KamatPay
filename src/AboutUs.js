@@ -17,7 +17,7 @@ const AboutUs = () => {
                                 <div className='col-1 our-services-number'>1</div>
                                 <div className='col-10 our-services-data'>
                                     <h2>Sign in</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?</p>
+                                    <p main-hero-para>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?</p>
                                 </div>
                             </div>
                             <br />

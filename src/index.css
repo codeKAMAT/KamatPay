@@ -174,7 +174,7 @@ header {
 .work-container {
     width: 80vw;
     padding: 5rem;
-    box-shadow: 0 0.4rem 1.2 rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
     background-color: #fff;
     margin-top: -10rem;
     border-radius: 0.5rem;
@@ -203,6 +203,47 @@ header {
     margin: 2rem auto;
 }
 /* work section END */
+
+/* --------------------------------- About Us Section Starts  
+                        -------------------------------------------------------*/
+.our-services img {
+    width: 50%;
+    height: 75%;
+    margin-top: 17rem ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
+    border-radius: 1.5rem;
+}
+.our-services .mini-title {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 7rem 0 3rem 0;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.our-services .main-heading{
+    font-weight: bolder;
+}
+.our-services-info {
+    margin-top: 4rem;
+}
+.our-services .our-services-number {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
+    background-color: transparent;
+    border: 0.1rem solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    display: grid;
+    place-items: center;
+}
+.our-services-data {
+    padding-left: 2rem;
+}
+.our-services .our-services-data p {
+    margin: 1rem 0;
+}
+
 
 
 /* --------------------------------- responsive media queries  
