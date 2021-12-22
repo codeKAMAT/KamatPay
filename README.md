@@ -1,1 +1,1 @@
-# KamatPay
+# EasyPay
