@@ -206,17 +206,20 @@ header {
 
 /* --------------------------------- About Us Section Starts  
                         -------------------------------------------------------*/
+.common-section{
+    margin: 5rem 0;
+}
 .our-services img {
     width: 50%;
     height: 75%;
-    margin-top: 17rem ;
+    margin-top: 10rem ;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
     border-radius: 1.5rem;
 }
 .our-services .mini-title {
     text-transform: uppercase;
     font-weight: normal;
-    margin: 7rem 0 3rem 0;
+    margin: 3rem 0;
     text-align: left;
     font-size: 1.5rem;
 }
