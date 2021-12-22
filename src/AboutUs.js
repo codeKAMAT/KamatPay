@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
+import howToUseApp from './API/howToUse'
 
 const AboutUs = () => {
+    const [aboutData, setAboutData] = useState(howToUseApp)
     return (
         <>
             <section className='common-section our-services'>
@@ -13,13 +15,21 @@ const AboutUs = () => {
                         <div className='col-12 col-lg-7 our-services-list'>
                             <h3 className='mini-title'>--Available @google and ios app store only</h3>
                             <h1 className='main-heading'>How to use the App?</h1>
-                            <div className='row our-services-info'>
-                                <div className='col-1 our-services-number'>1</div>
-                                <div className='col-10 our-services-data'>
-                                    <h2>Sign in</h2>
-                                    <p main-hero-para>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?</p>
-                                </div>
-                            </div>
+                           {
+                             aboutData.map((curElem) => {
+                                 const {id, title, info } = curElem;
+                                 return(
+                                    <div className='row our-services-info' key={id}>
+                                        <div className='col-1 our-services-number'>{id}</div>
+                                        <div className='col-10 our-services-data'>
+                                        <h2>{title}</h2>
+                                        <p className="main-hero-para">{info}</p>
+                                       </div>
+                                    </div>
+                                 )
+                             })
+                           }
+
                             <br />
                             <button className='btn-style btn-style-border'>learn more</button>
                         </div>
