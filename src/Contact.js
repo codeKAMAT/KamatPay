@@ -49,7 +49,7 @@ const Contact = () => {
                                 </div>
                                 <div className='form-check form-checkbox-style'>
                                     <input class='form-check-input' type="checkbox" value="" id="flexCheckChecked" />
-                                    <label className='main-hero-para' class="form-check-label">
+                                    <label class="form-check-label"  className='main-hero-para'>
                                         I agree that the Easypay may contact me at the email id or phone number above
                                     </label>
                                 </div>
